@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="12" height="12" viewBox="0 0 12 12" enable-background="new 0 0 12 12" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="12" height="12"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<path fill="#0000FF" d="M6,11.979c-3.297,0-5.979-2.682-5.979-5.979S2.703,0.021,6,0.021c2.157,0,4.314,1.278,5.369,3.18
+			c0.134,0.241,0.047,0.545-0.195,0.68c-0.239,0.133-0.545,0.047-0.68-0.195C9.61,2.092,7.805,1.021,6,1.021
+			C3.254,1.021,1.021,3.254,1.021,6c0,2.745,2.233,4.979,4.979,4.979c2.691,0,4.878-2.106,4.979-4.796
+			c0.012-0.275,0.239-0.501,0.519-0.481c0.276,0.01,0.491,0.242,0.481,0.518C11.857,9.449,9.231,11.979,6,11.979z"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<path fill="#0000FF" d="M10.932,3.943H8.009c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5h2.423V0.521c0-0.276,0.224-0.5,0.5-0.5
+			s0.5,0.224,0.5,0.5v2.922C11.432,3.72,11.208,3.943,10.932,3.943z"/>
+	</g>
+</g>
+</svg>

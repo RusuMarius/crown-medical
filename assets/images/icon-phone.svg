@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="69.553px" height="68.5px" viewBox="0 0 69.553 68.5" enable-background="new 0 0 69.553 68.5" xml:space="preserve">
+<line fill="none" stroke="#F37D20" stroke-width="2" stroke-miterlimit="10" x1="24.888" y1="10.047" x2="40.303" y2="10.047"/>
+<line fill="none" stroke="#F37D20" stroke-width="2" stroke-miterlimit="10" x1="14.572" y1="52.884" x2="49.701" y2="52.884"/>
+<circle fill="#F37D20" cx="31.732" cy="58.887" r="1.376"/>
+<path fill="none" stroke="#F37D20" stroke-width="2" stroke-miterlimit="10" d="M49.57,20.716V10.541
+	c0-3.291-2.676-5.967-5.967-5.967H20.402c-3.29,0-5.967,2.676-5.967,5.967v48.827c0,3.289,2.677,5.966,5.967,5.966h23.201
+	c3.291,0,5.967-2.677,5.967-5.966V41.146"/>
+<path fill="none" stroke="#F37D20" stroke-width="2" stroke-miterlimit="10" d="M42.345,20.716"/>
+<polyline fill="none" stroke="#F37D20" stroke-width="2" stroke-miterlimit="10" points="56.332,24.172 49.103,34.704 
+	42.974,28.574 "/>
+</svg>

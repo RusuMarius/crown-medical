@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'TTCommons Regular';
+    src: url('../fonts/tt_commons_regular-webfont.otf') format('opentype'),
+         url('../fonts/tt_commons_regular-webfont.woff2') format('woff2'),
+         url('../fonts/tt_commons_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTCommons Bold';
+    src: url('../fonts/tt_commons_bold-webfont.otf') format('opentype'),
+         url('../fonts/tt_commons_bold-webfont.woff2') format('woff2'),
+         url('../fonts/tt_commons_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTCommons Light';
+    src: url('../fonts/tt_commons_light-webfont.otf') format('opentype'),
+         url('../fonts/tt_commons_light-webfont.woff2') format('woff2'),
+         url('../fonts/tt_commons_light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTCommons Medium';
+    src: url('../fonts/tt_commons_medium-webfont.otf'),
+         url('../fonts/tt_commons_medium-webfont.woff2'),
+         url('../fonts/tt_commons_medium-webfont.woff');
+    font-weight: 500;
+    font-style: normal;
+}
