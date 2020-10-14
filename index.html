@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta charset="utf-8">
+    <title>TBI Credit</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width">
+    <link href="assets/css/bootstrap.css" media="all" rel="stylesheet"/>
+    <link href="assets/css/fonts.css" media="all" rel="stylesheet"/>
+    <link href="assets/css/app.css" media="all" rel="stylesheet"/>
+</head>
+<body>
+<header style="border: 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 logo head-box">
+                <a href="index.html"><img src="assets/images/logo.png" alt="TBI Bank"></a>
+            </div>
+            <div class="col-6 hphone head-box text-right">
+                <span class="small d-none d-md-inline"></span> <a href="tel:070017571"><span
+                    class="d-sm-inline">021 529 86 00</span></a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+                <div class="row main-pannel">
+
+                    <div class="col-lg-7 no-pad">
+                        <div class="main-text">
+                            <h1>Totul e mai simplu <br> cu un <span>Credit Instant</span></h1>
+                            <p>Alege soluţia 100% online oferită de TBI Credit<br>
+                                Doar 10 minute din timpul tău şi produsele sunt aproape la uşa ta.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 no-pad">
+                        <img src="assets/images/main-banner.png" class="w-100" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 benefits">
+                        <ul class="benefits">
+                            <li><span class="check"></span>10 minute</li>
+                            <li><span class="check"></span>24/7</li>
+                            <li><span class="check"></span>100% online</li>
+                            <li><span class="check"></span>Fără drumuri la bancă</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="w-100 text-center"><a href="#clip">Cum funcționează <img class="rotated" src="assets/images/arr-r-black.png" alt=""></a></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+<div class="container">
+    <div class="row"style="display:none">
+        <div class="col-md-12 text-center headline">
+            <h2>Simulator</h2>
+            <p>Completează valoarea, selectează numărul de rate și află suma lunară de plată. </p>
+        </div>
+    </div>
+    <div class="row" style="display:none">
+        <div class="col-md-12">
+            <form class="blue">
+                <div class="form-row">
+                    <div class="col-md-6 group-one">
+                        <div class="form-row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="total-value"
+                                           placeholder="Valoare bunuri"/>
+                                    <span class="input-group-addon">LEI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="input-group">
+                                    <select class="form-control" id="perioada">
+                                        <option value="6">6 luni</option>
+                                        <option value="12">12 luni</option>
+                                        <option value="18">18 luni</option>
+                                        <option value="24" selected>24 luni</option>
+                                        <option value="36">36 luni</option>
+                                        <option value="60">60 luni</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <hr>
+                                <div class="section-one">
+                                    <div class="form-row orange">
+                                        <div class="col-8">
+                                            <span>Rata lunară</span>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <span id="rata">0.00</span>
+                                            <span class="ml-10">LEI</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-8">
+                                            <span>DAE</span>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <span id="dae">0.00</span>
+                                            <span class="ml-10">%</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-8">
+                                            <span>Dobânda</span>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <span id="dobanda">0.00</span>
+                                            <span class="ml-10">%</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-8">
+                                            <span>Comision de analiză</span>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <span id="comision">0.00</span>
+                                            <span class="ml-10">LEI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="section-total">
+                                    <div class="form-row">
+                                        <div class="col-8">
+                                            <span>Total de plată</span>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <span id="total">0.00</span>
+                                            <span class="ml-10">LEI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <p>Valoarea ratei afişată este orientativă şi nu are valoare contractuală</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center headline no-pad">
+            <p>Completează datele tale și vei fi contactat telefonic pentru continuarea cererii de credit.</p>
+        </div>
+    </div>
+    <div class="row" id="ancora">
+        <div class="col-md-12">
+            <form class="blue second" id="dataform">
+                <div class="form-row">
+                    <div class="col-md-4 offset-md-2">
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="nume"
+                                           placeholder="Nume"
+                                           data-validation="length alphanumeric required"
+                                           data-validation-length="min3"
+                                           data-validation-allowing=" "
+                                           data-validation-error-msg="Campul 'Nume' este obligatoriu si trebuie sa contina minim 3 caractere"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="prenume"
+                                           placeholder="Prenume"
+                                           data-validation="length alphanumeric required"
+                                           data-validation-length="min3"
+                                           data-validation-allowing=" "
+                                           data-validation-error-msg="Campul 'Prenume' este obligatoriu si trebuie sa contina minim 3 caractere"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-4 offset-md-2">
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="telefon"
+                                           placeholder="Telefon"
+                                           data-validation="length number required"
+                                           data-validation-length="10-20"
+                                           data-validation-error-msg="Numarul de telefon trebuie sa contina minim 10 cifre"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" id="email"
+                                           placeholder="Adresa email"
+                                           data-validation="email required"
+                                           data-validation-error-msg="Campul 'Email' este obligatoriu si trebuie sa contina o adresa de email valida"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button type="submit" id="solicita" onclick="submitForm()" class="btn btn-default blue-btn " aria-label="Left Align"> Solicită oferta </button>
+                </div>
+                <div class="form-row">
+                    <div id="warn" class="text-center w-100 mt-3">Pentru o tranzactie in rate fixe, egale, efectuata in baza unui ordin de debitare, in valoare de 5,000 lei, rambursata in 24 de rate lunare, cu o dobanda 15% si comision de analiza de 450 lei, valoarea ratei lunare va fi de 264.25 lei, iar valoarea totala platibila va fi in valoare de 6,342.05 lei si DAE 26.77%.
+</br>
+Prezenta oferta se aplica in cazul in care nu se efectueaza nicio alta tranzactie pana la rambursarea integrala a creditului, iar fiecare rata lunara este achitata integral de catre client
+</div>
+                </div>
+        </form>
+    </div>
+</div>
+<hr>
+<div class="row clip" id="clip">
+    <div class="col-md-6 align-self-center">
+        <p>
+            Urmăreşte filmuleţul şi vezi cât de uşor este să faci cumpărături alături de noi <span class="arr-black"><img src="assets/images/arr-r-black.png" alt=""></span></p>
+    </div>
+    <div class="col-md-6">
+        <iframe  height="350" src="https://www.youtube.com/embed/YQ1C6nKvlRo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="row mx-auto">
+        <div class="col-md-12">
+            <hr class="m0-mob">
+            <div class="row">
+                <div class="col-md-12 text-center headline">
+                    <h2>Ce urmează?</h2>
+                    <p>Sunt câțiva pași foarte simpli:</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 content">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 feat-item text-center">
+                    <div class="feat-icon text-center"><img src="assets/images/ico_02-1.svg" alt=""></div>
+                    <div class="feat-text"><p><strong>Pasul 1</strong>După ce ai completat datele tale și ai solicitat oferta, vei fi contactat în scurt timp de un reprezentant al magazinului.</p></div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 feat-item text-center">
+                    <div class="feat-icon text-center"><img src="assets/images/ico_02-2.svg" alt=""></div>
+                    <div class="feat-text"><p><strong>Pasul 2</strong>Furnizezi datele personale și primești un link prin e-mail.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 feat-item text-center">
+                    <div class="feat-icon text-center"><img src="assets/images/ico_02-3.svg" alt=""></div>
+                    <div class="feat-text"><p><strong>Pasul 3</strong>Continui cererea cu verificarea identității și semnarea contractului de credit.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 mx-auto" style="text-align: center;">
+            <p>Îţi mulţumim pentru interesul acordat produselor noastre!</p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <hr>
+        <div class="row footer-content">
+            <div class="foo-box col-12 col-md-6">
+                TBI Credit<br/>
+                8-12 Putul lui Zamfir Street,<br/>
+                Bucuresti, Romania<br/>
+                ©2019 TBI Credit IFN S.A.
+            </div>
+            <div class="foo-box col-10 col-md-4">
+                <a href="https://tbicredit.ro/politica-de-confidentialitate">Politica de confidentialitate</a><br>
+                <a href="https://tbicredit.ro/politica-de-cookies">Politica de Cookies</a><br>
+                <a href="https://tbicredit.ro/termeni-si-conditii">Termeni si conditii</a><br>
+                <a href="https://anpc.ro/">Protectia Consumatorului</a>
+            </div>
+            <div class="foo-box gotop col-2 text-right">
+                <a><img src="assets/images/gotop.png"
+                                                                      alt="Go Top"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script src="assets/parteneri_lp.js"></script>
+<script>
+    $('#total-value').val(5000/*se adauga valoarea totala care va fi precompletata*/);
+    var dobanda = 0.120; // se modifica valoarea dobanzii
+    var comision = 170;  // comision de analiza
+    var alico = 0.00357; // asigurare
+    var adresaemail = 'rusu.marius1207@gmail.com';  //adresa de e-mail catre care se trimit datele
+    var comerciant = 'Crown Medical';
+</script>
+<script>
+    $.validate({
+        form: '#dataform',
+        modules : 'toggleDisabled',
+        // disabledFormFilter : '#dataform.toggle-disabled',
+        showErrorDialogs : false
+    })
+</script>
+</body>
+</html>
